@@ -1,8 +1,8 @@
 <svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-            h1 {
+            <style type="container">
+<!--             h1 {
                 color: red;
                 animation: mymove 2s infinite;
             }
@@ -14,9 +14,34 @@
                 to {
                     color: yellow;
                 }
-            }
+            } -->
+                 
+               .container {
+                    position: relative;
+                 }
+                
+                
             </style>
-            <h1>HELLO WORLD!</h1>
+            
+            <style type = "text-block">
+                .text-block {
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
+                background-color: black;
+                color: white;
+                padding-left: 20px;
+                padding-right: 20px;
+            } 
+            </style>
+<!--             <h1>HELLO WORLD!</h1> -->
+             <div class="container">
+               <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="Norway" style="width:100%;">
+               <div class="text-block">
+                 <h4>Nature</h4>
+                 <p>What a beautiful sunrise</p>
+              </div>
+             </div>
         </div>
     </foreignObject>
 </svg>
